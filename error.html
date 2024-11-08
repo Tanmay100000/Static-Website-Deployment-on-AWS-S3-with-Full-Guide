@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Page Not Found</title>
+  <style>
+    /* Reset default styles */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    /* Body styling */
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      background: linear-gradient(135deg, #ff7f50, #ff6347);
+      font-family: 'Arial', sans-serif;
+      color: #333;
+      text-align: center;
+    }
+
+    /* Container styling */
+    .container {
+      background: #ffffff;
+      padding: 3em;
+      border-radius: 20px;
+      box-shadow: 0 20px 30px rgba(0, 0, 0, 0.1);
+      width: 80%;
+      max-width: 600px;
+      transform: translateY(-20px);
+      transition: all 0.3s ease;
+    }
+
+    .container:hover {
+      transform: translateY(0);
+    }
+
+    /* Title styling */
+    h1 {
+      font-size: 3em;
+      color: #ff6347;
+      margin-bottom: 0.5em;
+      font-weight: bold;
+      letter-spacing: 2px;
+    }
+
+    /* Message styling */
+    p {
+      font-size: 1.2em;
+      color: #555;
+      margin-bottom: 2em;
+    }
+
+    /* Button styling */
+    .button {
+      padding: 1em 2em;
+      background: #ff6347;
+      color: white;
+      font-size: 1.1em;
+      font-weight: bold;
+      text-decoration: none;
+      border-radius: 30px;
+      border: none;
+      transition: background 0.3s, transform 0.3s;
+      display: inline-block;
+      cursor: pointer;
+    }
+
+    .button:hover {
+      background: #ff4500;
+      transform: scale(1.1);
+    }
+
+    /* Image styling */
+    .image {
+      margin: 2em 0;
+      max-width: 250px;
+      animation: bounce 2s infinite;
+    }
+
+    /* Animation for the image */
+    @keyframes bounce {
+      0% { transform: translateY(0); }
+      50% { transform: translateY(-20px); }
+      100% { transform: translateY(0); }
+    }
+
+    /* Responsive design */
+    @media (max-width: 600px) {
+      .container {
+        padding: 2em;
+        width: 90%;
+      }
+
+      h1 {
+        font-size: 2.5em;
+      }
+
+      .button {
+        padding: 0.8em 1.5em;
+        font-size: 1em;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>404 Error</h1>
+    <p>Oops! The page you are looking for does not exist or has been moved.</p>
+    
+   
+    <a href="index.html" class="button">Back to Home</a>
+  </div>
+</body>
+</html>
