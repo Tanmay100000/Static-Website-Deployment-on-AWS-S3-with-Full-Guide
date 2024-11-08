@@ -31,6 +31,7 @@ This project is a static website hosted on Amazon S3. It includes HTML & CSS for
 3. *Set Bucket Permissions*:
    - Navigate to the *Permissions* tab.
    - In *Bucket Policy*, paste the following policy, replacing <YOUR_BUCKET_NAME> with your actual bucket name:
+   - 
      json
      ```bash
      {
